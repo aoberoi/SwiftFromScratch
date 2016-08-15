@@ -1,0 +1,16 @@
+--- build-presets.ini	2016-08-14 10:46:58.000000000 -0700
++++ build-presets.ini.add-libdispatch	2016-08-14 10:47:20.000000000 -0700
+@@ -646,11 +646,13 @@
+ test
+ validation-test
+ long-test
++libdispatch
+ foundation
+ lit-args=-v
+ 
+ dash-dash
+ 
++install-libdispatch
+ install-foundation
+ reconfigure
+ 
